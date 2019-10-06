@@ -11,7 +11,7 @@ import org.junit.runners.JUnit4
 
 @RunWith(JUnit4::class)
 class MainViewModelTest {
-
+//here we will try to fetch my repository "androidarena" and see if all tests passed using Mockk library
     @get:Rule
     var instantExecutorRule = InstantTaskExecutorRule()
 

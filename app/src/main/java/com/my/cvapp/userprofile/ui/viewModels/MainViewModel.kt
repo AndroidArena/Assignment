@@ -38,7 +38,7 @@ class MainViewModel : ViewModel() {
         cancelJobs()
     }
 
-
+//tried to utilize a power of kotlin inbuilt functions if we need to make user
     fun makeProfileList() {
 
         val strEducation =

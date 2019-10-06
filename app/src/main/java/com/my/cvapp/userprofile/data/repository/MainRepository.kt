@@ -9,6 +9,7 @@ import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.Dispatchers.Main
 import retrofit2.HttpException
 
+//Repository file is responsible for data and notify to viewmodel
 object MainRepository {
 
    private var job: CompletableJob? = null

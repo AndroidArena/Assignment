@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">CVApp</string>
+    <string name="CompanyName">Company Name</string>
+    <string name="Experience">Experience</string>
+    <string name="Designation">Designation</string>
+    <string name="Date">Date</string>
+    <string name="connect">connect</string>
+    <string name="loading">- -</string>
+    <string name="message">message</string>
 
 </resources>

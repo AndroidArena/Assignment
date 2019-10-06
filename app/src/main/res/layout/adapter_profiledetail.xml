@@ -13,6 +13,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
+        android:contentDescription="@string/app_name"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toStartOf="@+id/heading_textview"
         app:layout_constraintHorizontal_bias="0.25"
@@ -27,7 +28,7 @@
         android:layout_marginTop="15dp"
         android:fontFamily="sans-serif"
         android:lines="1"
-        android:text="Company Name"
+        android:text="@string/CompanyName"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/logo_imageview"
         app:layout_constraintTop_toBottomOf="@+id/profiletype_textview" />
@@ -39,7 +40,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
         android:fontFamily="sans-serif"
-        android:text="Experience"
+        android:text="@string/Experience"
 
         app:layout_constraintBottom_toTopOf="@+id/logo_imageview"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,7 +54,7 @@
         android:layout_marginTop="5dp"
         android:fontFamily="sans-serif-medium"
         android:lines="1"
-        android:text="Designation"
+        android:text="@string/Designation"
         android:textSize="13sp"
         app:layout_constraintStart_toEndOf="@+id/logo_imageview"
         app:layout_constraintTop_toBottomOf="@+id/heading_textview" />
@@ -66,7 +67,7 @@
         android:layout_marginTop="5dp"
         android:fontFamily="sans-serif-light"
         android:lines="1"
-        android:text="Date"
+        android:text="@string/Date"
 
         android:textSize="13sp"
         app:layout_constraintStart_toEndOf="@+id/logo_imageview"
