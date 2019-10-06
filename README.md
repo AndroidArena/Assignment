@@ -14,7 +14,7 @@ Langugae & Tools used -
 Kotlin
 
 
-MVVM design pattern
+MVVM design pattern & Glid to load image locally (no free dummy image found onserver)
 
 
 LiveData,MutableLiveData
