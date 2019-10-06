@@ -35,7 +35,18 @@ inbuilt functions of Kotlin like split
 
 
 *For Unit-Testing
+
+
+
   testImplementation "io.mockk:mockk:1.9"
+  
+  
   testImplementation 'junit:junit:4.12'
+  
+  
+  
   testImplementation "android.arch.core:core-testing:1.1.1"
+  
+  
+  
 I have tried to fetch my repository("androidarena") in the Junit Test using Mockk library.
