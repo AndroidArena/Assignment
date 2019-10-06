@@ -1,5 +1,5 @@
-# Kotlin-CvApp 
-I have tried to develop a kotlin, MVVM and LiveData based Architecture to fetch the data from gist.github.com which is simple basic json object.
+# Kotlin-CvApp - Tried to mimic Linkedin profile page
+I have tried to develop a kotlin, MVVM and LiveData based Architecture App to fetch the data from gist.github.com which is simple basic json object.
 Tools used - 
 MVVM
 LiveData
