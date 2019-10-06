@@ -1,0 +1,1 @@
+data class ApiRepository(val id: String, val name: String)
