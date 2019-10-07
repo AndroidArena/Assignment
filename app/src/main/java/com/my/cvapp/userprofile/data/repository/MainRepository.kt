@@ -29,9 +29,9 @@ object MainRepository {
                                     value = user
                                     theJob.complete()
                                 } catch (e: HttpException) {
-                                    toast("Exception ${e.message}")
+                                    //toast("Exception ${e.message}")
                                 } catch (e: Throwable) {
-                                    toast("Ooops: Something else went wrong")
+                                   // toast("Ooops: Something else went wrong")
                                 }
                             }
                     }
@@ -48,9 +48,6 @@ object MainRepository {
 
 }
 
-private fun toast(s: String) {
-Log.i("Coroutines",s)
-}
 
 
 
